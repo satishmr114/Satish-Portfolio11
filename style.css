@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f9fafb;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* HERO */
+.hero {
+  padding: 80px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: #4F46E5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+/* PROJECTS */
+#projects {
+  padding: 60px;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ABOUT */
+#about {
+  padding: 60px;
+  text-align: center;
+}
+
+/* CONTACT */
+#contact {
+  padding: 60px;
+  text-align: center;
+}

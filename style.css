@@ -87,6 +87,9 @@ nav a {
 #about {
   padding: 60px;
   text-align: center;
+  p {
+  color: white;
+  }
 }
 
 /* CONTACT */

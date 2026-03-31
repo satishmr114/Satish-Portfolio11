@@ -2,7 +2,7 @@ body {
   background-image: url("https://raw.githubusercontent.com/satishmr114/Satish-Portfolio11/refs/heads/main/images/Background/background%20image.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: yes -repeat;
 }
 /* NAVBAR */
 header {
@@ -13,11 +13,6 @@ header {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-nav a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: black;
-}
 .hero {
   position: relative;
   background: url('background.jpg') no-repeat center center/cover;

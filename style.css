@@ -8,11 +8,17 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    background: linear-gradient(-45deg, #1e3c72, #2a5298, #6a11cb, #2575fc);
-    background-size: 400% 400%;
-    animation: gradientBG 10s ease infinite;
+    /* 🔥 YOUR BACKGROUND IMAGE */
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    color: #2d3436;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
     scroll-behavior: smooth;
 }
 

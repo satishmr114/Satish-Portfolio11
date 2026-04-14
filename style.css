@@ -94,7 +94,7 @@ body {
 
 /* ========== HEADER & NAVIGATION ========== */
 header {
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 20px white(0, 0, 0, 0);
     position: static; /* or remove this line completely */
 }
 
